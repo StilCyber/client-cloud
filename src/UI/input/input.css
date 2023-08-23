@@ -1,0 +1,8 @@
+input::placeholder {
+  font-size: 18px;
+}
+input {
+  border: 1px solid #566885;
+  padding: 20px 20px;
+  font-size: 18px;
+}

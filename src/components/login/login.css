@@ -1,0 +1,52 @@
+.registration {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px 30px 30px;
+    border-radius: 20px;
+    margin: 0px auto;
+    margin-top: 260px;
+    max-width: 600px;
+    row-gap: 20px;
+    color: #566885;
+    font-weight: 700;
+
+}
+.registration p {
+  display: block;
+  margin-bottom: 20px;
+
+}
+.registration__header {
+    font-size: 28px;
+    text-align: center;
+}
+.registration__input::placeholder {
+    font-size: 28px;
+}
+.registration__button {
+    display: flex;
+    justify-content: flex-end;
+}
+.registration__button button {
+    background-color: #566885;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.registration__button button:hover {
+    background-color: #fff;
+    color: #566885;
+    transition: 0.25s;
+}
+.registration__button button:active {
+    background-color: thistle;
+}
+
+
+
+
+
+
