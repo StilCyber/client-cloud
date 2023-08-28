@@ -24,8 +24,6 @@
     align-items: center;
 }
 
-/* .navbar__img a {
-} */
 
 .navbar__title {
     align-self: center;
@@ -48,4 +46,15 @@
 .navbar__logout {
     cursor: pointer;
     
+}
+
+.navbar__search {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.navbar__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
