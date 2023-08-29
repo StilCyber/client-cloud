@@ -19,7 +19,7 @@ function Navbar() {
   const avatar = currentUser.avatar
     ? `${API_URL + currentUser.avatar}`
     : avatarLogo;
-  console.log(currentUser);
+
 
   function searchChangeHandler(e) {
     setSearchName(e.target.value);

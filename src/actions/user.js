@@ -56,12 +56,14 @@ export const uploadAvatar = (file) => {
     try {
       const formData = new FormData()
       formData.append('file', file)
-      const response = await axios.post(`${API_URL}api/auth/auth`, formData, {
+      const response = await axios.post(`${API_URL}api/files/avatar`, formData, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       })
       dispatch(setUser(response.data))
+      console.log('12345')
     } catch (e) {
       console.log(e)
+      console.log('54321')
     }
   }
 }
@@ -70,7 +72,7 @@ export const deleteAvatar = (file) => {
   return async (dispatch) => {
     try {
       
-      const response = await axios.delete(`${API_URL}api/auth/auth`, {
+      const response = await axios.delete(`${API_URL}api/files/avatar`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
       })
       dispatch(setUser(response.data))
